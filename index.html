@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
-    <div class="hero-overlay">
+    <div class="hero-header-overlay">
       <div class="container">
         <header class="header">
           <div class="logo-booking-wrap">
@@ -65,6 +65,34 @@
             </address>
           </div>
         </header>
+        <section class="hero">
+          <div class="hero__meta">
+            <svg class="hero__icon" width="95" height="44">
+              <use href="./images/icons.svg#icon-div-1"></use>
+            </svg>
+            <h1 class="hero__title">
+              We're Group Of Certified Law Professionals
+            </h1>
+            <p class="hero__description">
+              we have helped countless maritime workers and their families go up
+              against the largest offshore companies and win.
+            </p>
+            <a href="#" class="hero__link">Get In Touch</a>
+          </div>
+          <picture class="hero__img">
+            <source
+              srcset="
+                ./images/background/bg-2@2x.png 2x,
+                ./images/background/bg-2@1x.png 1x
+              "
+            />
+            <img
+              src="./images/background/bg-2@1x.png"
+              alt="Peter Parker in black suit"
+              width="672px"
+            />
+          </picture>
+        </section>
       </div>
     </div>
   </body>

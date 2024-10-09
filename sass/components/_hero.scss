@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__icon {
+  margin-bottom: 14px;
+}
+.hero__meta {
+  max-width: 672px;
+}
+
+.hero__title {
+  margin-bottom: 21px;
+  color: $main-text-color;
+  font-family: $title-font-family;
+  font-size: 62px;
+  line-height: 1.2;
+}
+
+.hero__description {
+  margin-bottom: 28px;
+  color: $accent-color;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 24px 71px;
+  text-align: center;
+  font-size: 22px;
+  border: $accent-color;
+  background-color: $accent-color;
+
+  transition: background-color $animation-time $animation-function;
+
+  &:hover,
+  &:focus {
+    background-color: $button-bg-dark;
+  }
+}

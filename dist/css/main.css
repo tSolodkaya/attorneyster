@@ -183,7 +183,7 @@ button {
   cursor: pointer;
 }
 
-.hero-overlay {
+.hero-header-overlay {
   width: 1440px;
   height: 1023px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), url("../../images/background/bg-1@1x.jpg");
@@ -200,7 +200,7 @@ button {
 
 .header {
   padding-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .logo-booking-wrap {
@@ -328,4 +328,53 @@ button {
   display: block;
   color: #d1b06b;
   font-size: 18px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__icon {
+  margin-bottom: 14px;
+}
+
+.hero__meta {
+  max-width: 672px;
+}
+
+.hero__title {
+  margin-bottom: 21px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 62px;
+  line-height: 1.2;
+}
+
+.hero__description {
+  margin-bottom: 28px;
+  color: #d1b06b;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 24px 71px;
+  text-align: center;
+  font-size: 22px;
+  border: #d1b06b;
+  background-color: #d1b06b;
+  -webkit-transition: background-color 250ms ease-in;
+  transition: background-color 250ms ease-in;
+}
+.hero__link:hover, .hero__link:focus {
+  background-color: rgba(255, 255, 255, 0.1);
 }/*# sourceMappingURL=main.css.map */
