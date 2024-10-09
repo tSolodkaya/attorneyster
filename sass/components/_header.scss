@@ -1,0 +1,28 @@
+.header {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.logo-booking-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 30px;
+  border-bottom: 1px solid $line-break-color;
+}
+
+.button-link {
+  padding: 24px 71px;
+  text-align: center;
+  font-size: 22px;
+  border: $button-border-dark;
+  background-color: $button-bg-dark;
+
+  transition: background-color $animation-time $animation-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}

@@ -1,0 +1,51 @@
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 62px;
+  height: 62px;
+
+  border: 2px solid $accent-color;
+  border-radius: 50%;
+
+  transition: border-color $animation-time $animation-function;
+
+  .contact__link:hover & {
+    border-color: $main-text-color;
+  }
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.contact__icon {
+  fill: $accent-color;
+
+  transition: fill $animation-time $animation-function;
+
+  .contact__link:hover & {
+    fill: $main-text-color;
+  }
+}
+
+.contact__desc {
+  display: block;
+  color: $accent-color;
+  font-size: 18px;
+}

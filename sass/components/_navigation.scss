@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.navigation__link {
+  font-size: 22px;
+
+  transition: color $animation-time $animation-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.nav-contacts-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 33px 0 35px 0;
+  border-bottom: 1px solid $line-break-color;
+}
