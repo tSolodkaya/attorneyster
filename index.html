@@ -95,5 +95,115 @@
         </section>
       </div>
     </div>
+    <div class="container">
+      <section class="welcome">
+        <ul class="welcome-images">
+          <li class="welcome-images__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/section/section1@2x.avif 2x,
+                  ./images/section/section1@1x.avif 1x
+                "
+                type="image/avif"
+              />
+              <source
+                srcset="
+                  ./images/section/section1@2x.wepb 2x,
+                  ./images/section/section1@1x.wepb 1x
+                "
+                type="image/webp"
+              />
+              <source
+                srcset="
+                  ./images/section/section1@2x.jpg 2x,
+                  ./images/section/section1@1x.jpg 1x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="./images/section/section1@1x.jpg"
+                alt="library with book's shelves and statues"
+                width="467px"
+              />
+            </picture>
+          </li>
+          <li class="welcome-images__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/section/section2@2x.avif 2x,
+                  ./images/section/section2@1x.avif 1x
+                "
+                type="image/avif" />
+              <source
+                srcset="
+                  ./images/section/section2@2x.wepb 2x,
+                  ./images/section/section2@1x.wepb 1x
+                "
+                type="image/webp" />
+              <source
+                srcset="
+                  ./images/section/section2@2x.jpg 2x,
+                  ./images/section/section2@1x.jpg 1x
+                "
+                type="image/jpg" />
+              <img
+                src="./images/section/section2@1x.jpg"
+                alt="judge's gavel"
+                width="467px"
+            /></picture>
+          </li>
+        </ul>
+        <div class="welcome__meta">
+          <h2 class="welcome__title">
+            Welcome to Attorney Law - <br />
+            Lawyer & Law Firm Company
+          </h2>
+          <svg class="welcome__icon" width="95" height="44">
+            <use href="./images/icons.svg#icon-div-1"></use>
+          </svg>
+          <p class="welcome__desc">
+            Although we are located in Brooklyn, our maritime lawyers are proud
+            to help the injured throughout the nation, including workers who
+            were working in foreign waters at the time of the incident go up
+            against the largest offshore companies and win.
+          </p>
+          <div class="small-card">
+            <picture>
+              <source
+                srcset="
+                  ./images/section/parker@2x.png 2x,
+                  ./images/section/parker@2x.png 1x
+                " />
+              <img
+                src="./images/section/parker@2x.png"
+                alt="Peter Parker in black suit"
+                width="90px"
+            /></picture>
+            <p class="small-card__name">Peter Parker</p>
+          </div>
+
+          <ul class="cases">
+            <li class="cases__item cases__item--success">
+              <svg width="58" height="56">
+                <use href="./images/icons.svg#icon-notes"></use>
+              </svg>
+              <div>
+                <p>95%</p>
+                <p>Case Success</p>
+              </div>
+            </li>
+            <li class="cases__item cases__item--experience">
+              <p class="cases__year">35+</p>
+              <div>
+                <p>Years</p>
+                <p>Experience</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
