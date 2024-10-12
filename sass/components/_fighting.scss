@@ -10,8 +10,8 @@
     content: "";
     display: block;
     width: 100%;
-    height: 1px;
-    background-color: $section-desc-color;
+    height: 2px;
+    background-color: $win-card-bg-color;
     margin-top: 80px;
   }
 }
@@ -43,13 +43,14 @@
 
 .win-card {
   width: 433px;
+  height: 180px;
   padding: 30px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-
+  background-color: $win-card-bg-color;
   text-transform: capitalize;
 
   &--imaged {
