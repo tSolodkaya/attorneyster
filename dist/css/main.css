@@ -580,4 +580,120 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.fighting {
+  padding-top: 124px;
+  padding-bottom: 84px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.container__fighting::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #909090;
+  margin-top: 80px;
+}
+
+.fighting__title {
+  margin-bottom: 11px;
+  color: #161d27;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 45px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.fighting__icon {
+  margin-bottom: 40px;
+}
+
+.fighting__desc {
+  margin-bottom: 60px;
+  color: #909090;
+}
+
+.board-wins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.win-card {
+  width: 433px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+.win-card--imaged {
+  display: block;
+  text-align: start;
+  line-height: 1.3;
+  background-image: url("../../images/section/section3@1x.jpg");
+}
+
+.win-card__score-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 118px;
+  height: 120px;
+  border: 2px solid #d1b06b;
+}
+
+.win-card__score {
+  color: #1f2732;
+  font-size: 30px;
+  line-height: 1.3;
+}
+.win-card--imaged .win-card__score {
+  color: #fff;
+}
+
+.win-card__title {
+  text-align: start;
+  color: #1f2732;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  line-height: 1.4;
+}
+.win-card--imaged .win-card__title {
+  margin-bottom: 10px;
+}
+
+.win-card__desc {
+  color: #909090;
+}
+.win-card--imaged .win-card__desc {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
