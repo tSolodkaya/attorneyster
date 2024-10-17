@@ -1,0 +1,135 @@
+.blogs {
+  padding-top: 140px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1440px;
+    height: 248px;
+    margin-top: 100px;
+    background-image: url("../../images/background/bg-5@1x.jpg");
+  }
+}
+
+.blogs__title-article-wrap {
+  text-align: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid $line-break-color;
+}
+
+.blogs__title {
+  margin-bottom: 11px;
+
+  font-family: $title-font-family;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.blogs__title-wrap {
+  margin-bottom: 70px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 60px;
+  column-gap: 20px;
+  padding-top: 100px;
+}
+
+.article {
+  width: 440px;
+
+  &--main {
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.article__meta {
+  &--main {
+    width: 655px;
+  }
+}
+
+.article__img-thumb {
+  width: 440px;
+  height: auto;
+
+  margin-bottom: 24px;
+}
+
+.article__subject,
+.artcile__date {
+  color: $accent-color;
+  font-size: 21px;
+}
+
+.article__subject {
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 21px;
+    background-color: $accent-color;
+
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.artcile__subject-date-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-bottom: 1px solid $line-break-color;
+  padding-bottom: 24px;
+}
+
+.article__title {
+  margin-bottom: 22px;
+  padding-top: 26px;
+
+  font-family: $title-font-family;
+  font-size: 30px;
+  line-height: 1.3;
+
+  &--main {
+    font-size: 45px;
+  }
+}
+
+.article__text {
+  margin-bottom: 17px;
+  height: 96px;
+  overflow: hidden;
+  color: $paragraph-color;
+}
+
+.article__link {
+  display: inline-block;
+  color: $accent-color;
+  font-size: 22px;
+  text-transform: capitalize;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $accent-color;
+    transform: scale(1);
+    transition: transform $animation-time $animation-function;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    transform: scale(0.5);
+  }
+}
