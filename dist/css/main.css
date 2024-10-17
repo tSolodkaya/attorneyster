@@ -1086,11 +1086,6 @@ button {
   fill: #d1b06b;
 }
 
-.contact-us {
-  padding-bottom: 150px;
-  padding-top: 150px;
-}
-
 .contact-us-wrap {
   width: 630px;
 }
@@ -1109,6 +1104,8 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 150px;
+  padding-top: 150px;
 }
 
 .contact-us__title {
@@ -1204,4 +1201,83 @@ button {
   display: block;
   font-size: 18px;
   line-height: 1.2;
+}
+
+.contact-form-wrap {
+  width: 1440px;
+  height: 945px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), url("../../images/background/bg-4@1x.jpg");
+  background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), url("../../images/background/bg-4@1x.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), -webkit-image-set(url("../../images/background/bg-4@2x.avif") type("image/avif") 2x, url("../../images/background/bg-4@1x.avif") type("image/avif") 1x, url("../../images/background/bg-4@2x.webp") type("image/webp") 2x, url("../../images/background/bg-4@1x.webp") type("image/webp") 1x, url("../../images/background/bg-4@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg") type("image/jpeg") 1x);
+  background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), -webkit-image-set(url("../../images/background/bg-4@2x.avif") type("image/avif") 2x, url("../../images/background/bg-4@1x.avif") type("image/avif") 1x, url("../../images/background/bg-4@2x.webp") type("image/webp") 2x, url("../../images/background/bg-4@1x.webp") type("image/webp") 1x, url("../../images/background/bg-4@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg") type("image/jpeg") 1x);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), image-set(url("../../images/background/bg-4@2x.avif") type("image/avif") 2x, url("../../images/background/bg-4@1x.avif") type("image/avif") 1x, url("../../images/background/bg-4@2x.webp") type("image/webp") 2x, url("../../images/background/bg-4@1x.webp") type("image/webp") 1x, url("../../images/background/bg-4@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg") type "image/jpeg" 1x);
+  background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), -webkit-image-set(url("../../images/background/bg-4@2x.avif") type("image/avif") 2x, url("../../images/background/bg-4@1x.avif") type("image/avif") 1x, url("../../images/background/bg-4@2x.webp") type("image/webp") 2x, url("../../images/background/bg-4@1x.webp") type("image/webp") 1x, url("../../images/background/bg-4@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg") type url("image/jpeg") 1x);
+  background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), image-set(url("../../images/background/bg-4@2x.avif") type("image/avif") 2x, url("../../images/background/bg-4@1x.avif") type("image/avif") 1x, url("../../images/background/bg-4@2x.webp") type("image/webp") 2x, url("../../images/background/bg-4@1x.webp") type("image/webp") 1x, url("../../images/background/bg-4@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg") type "image/jpeg" 1x);
+}
+
+.contact-form {
+  padding: 90px 100px 105px 100px;
+  background-color: #1f2732;
+}
+
+.contact-form__ipnput,
+.contact-form__message {
+  display: block;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  border-bottom: 1px solid #3b434e;
+  background-color: #1f2732;
+  color: #fff;
+  font-size: 25px;
+  line-height: 0.8;
+}
+.contact-form__ipnput:focus,
+.contact-form__message:focus {
+  border-bottom: 1px solid #d1b06b;
+}
+
+.contact-form__ipnput {
+  width: 557px;
+}
+
+.contact-form__message {
+  width: 100%;
+  min-height: 110px;
+  margin-bottom: 50px;
+  resize: none;
+}
+
+.contact-form__input-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 38px;
+  margin-bottom: 65px;
+}
+
+.contact-form__button {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  color: #3b434e;
+  font-size: 25px;
+  background-color: #fff;
+  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in;
+}
+.contact-form__button:hover, .contact-form__button:focus {
+  background-color: #d1b06b;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
