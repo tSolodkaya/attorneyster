@@ -13,6 +13,7 @@
 }
 
 .footer__navigation {
+  margin-bottom: 85px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -51,4 +52,31 @@
   display: flex;
   gap: 78px;
   justify-items: flex-start;
+}
+
+.copyright-socials-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 26px;
+  padding-bottom: 26px;
+
+  border-top: 1px solid $line-break-color;
+  border-bottom: 1px solid $line-break-color;
+}
+
+.copy {
+  color: $paragraph-color;
+  text-transform: capitalize;
+}
+
+.accent-color-text {
+  color: $accent-color;
+}
+
+.footer__sosials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

@@ -58,14 +58,17 @@
 }
 
 .socials {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 100%);
+  &--position {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
 
-  width: 217px;
-  height: 66px;
-  background-color: $main-text-color;
+    width: 217px;
+    height: 66px;
+
+    background-color: $main-text-color;
+  }
 
   display: flex;
   align-items: center;
@@ -110,5 +113,9 @@
   .socials__link:hover &,
   .socials__link:focus & {
     fill: $accent-color;
+  }
+
+  &--light {
+    fill: $main-text-color;
   }
 }
