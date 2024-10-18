@@ -4,6 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Attorneyster</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./images/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
@@ -20,9 +93,7 @@
                 <use href="./images/icons.svg#icon-logo"></use>
               </svg>
             </a>
-            <a href="#" class="button-link button-link--dark"
-              >Book A Consultation</a
-            >
+            <a href="#" class="button-link">Book A Consultation</a>
           </div>
           <div class="nav-contacts-wrap">
             <nav>
@@ -33,36 +104,34 @@
                 <li><a class="navigation__link" href="#">Contact Us</a></li>
               </ul>
             </nav>
-            <address>
-              <ul class="contacts">
-                <li class="contact">
-                  <a class="contact__link" href="tel:+48987654321">
-                    <div class="contact__icon-wrap">
-                      <svg class="contact__icon" width="17" height="17">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                      </svg>
-                    </div>
-                    <div>
-                      <span class="contact__desc">Call Us On:</span
-                      >+48-987654321
-                    </div></a
-                  >
-                </li>
-                <li class="contact">
-                  <a class="contact__link" href="mailto:yourmail@mail.com">
-                    <div class="contact__icon-wrap">
-                      <svg class="contact__icon" width="17" height="17">
-                        <use href="./images/icons.svg#icon-envelope"></use>
-                      </svg>
-                    </div>
-                    <div>
-                      <span class="contact__desc">Email Us On:</span
-                      >yourmail@mail.com
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </address>
+
+            <ul class="contacts">
+              <li class="contact">
+                <a class="contact__link" href="tel:911987654321">
+                  <div class="contact__icon-wrap">
+                    <svg class="contact__icon" width="17" height="17">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="contact__desc">Call Us On:</span>911-987654321
+                  </div></a
+                >
+              </li>
+              <li class="contact">
+                <a class="contact__link" href="mailto:yourmail@mail.com">
+                  <div class="contact__icon-wrap">
+                    <svg class="contact__icon" width="17" height="17">
+                      <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="contact__desc">Email Us On:</span
+                    >yourmail@mail.com
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
         </header>
         <section class="hero">
@@ -79,132 +148,141 @@
             </p>
             <a href="#" class="hero__link">Get In Touch</a>
           </div>
-          <picture class="hero__img">
-            <source
-              srcset="
-                ./images/background/bg-2@2x.png 2x,
-                ./images/background/bg-2@1x.png 1x
-              "
-            />
-            <img
-              src="./images/background/bg-2@1x.png"
-              alt="Peter Parker in black suit"
-              width="672px"
-            />
-          </picture>
+          <div class="hero__img-thumb">
+            <picture>
+              <source
+                srcset="
+                  ./images/background/bg-2@2x.png 2x,
+                  ./images/background/bg-2@1x.png 1x
+                "
+              />
+              <img
+                src="./images/background/bg-2@1x.png"
+                alt="Peter Parker in black suit"
+                width="672px"
+              />
+            </picture>
+          </div>
         </section>
       </div>
     </div>
-    <div class="container">
-      <section class="welcome">
-        <ul class="welcome-images">
-          <li class="welcome-images__item">
-            <picture>
-              <source
-                srcset="
-                  ./images/section/section1@2x.avif 2x,
-                  ./images/section/section1@1x.avif 1x
-                "
-                type="image/avif"
-              />
-              <source
-                srcset="
-                  ./images/section/section1@2x.wepb 2x,
-                  ./images/section/section1@1x.wepb 1x
-                "
-                type="image/webp"
-              />
-              <source
-                srcset="
-                  ./images/section/section1@2x.jpg 2x,
-                  ./images/section/section1@1x.jpg 1x
-                "
-                type="image/jpg"
-              />
-              <img
-                src="./images/section/section1@1x.jpg"
-                alt="library with book's shelves and statues"
-                width="467px"
-              />
-            </picture>
-          </li>
-          <li class="welcome-images__item">
-            <picture>
-              <source
-                srcset="
-                  ./images/section/section2@2x.avif 2x,
-                  ./images/section/section2@1x.avif 1x
-                "
-                type="image/avif" />
-              <source
-                srcset="
-                  ./images/section/section2@2x.wepb 2x,
-                  ./images/section/section2@1x.wepb 1x
-                "
-                type="image/webp" />
-              <source
-                srcset="
-                  ./images/section/section2@2x.jpg 2x,
-                  ./images/section/section2@1x.jpg 1x
-                "
-                type="image/jpg" />
-              <img
-                src="./images/section/section2@1x.jpg"
-                alt="judge's gavel"
-                width="467px"
-            /></picture>
-          </li>
-        </ul>
-        <div class="welcome__meta">
-          <h2 class="welcome__title">
-            Welcome to Attorney Law - <br />
-            Lawyer & Law Firm Company
-          </h2>
-          <svg class="welcome__icon" width="95" height="44">
-            <use href="./images/icons.svg#icon-div-1"></use>
-          </svg>
-          <p class="welcome__desc">
-            Although we are located in Brooklyn, our maritime lawyers are proud
-            to help the injured throughout the nation, including workers who
-            were working in foreign waters at the time of the incident go up
-            against the largest offshore companies and win.
-          </p>
-          <div class="small-card">
-            <picture>
-              <source
-                srcset="
-                  ./images/section/parker@2x.png 2x,
-                  ./images/section/parker@2x.png 1x
-                " />
-              <img
-                src="./images/section/parker@2x.png"
-                alt="Peter Parker in black suit"
-                width="90px"
-            /></picture>
-            <p class="small-card__name">Peter Parker</p>
-          </div>
-
-          <ul class="cases">
-            <li class="cases__item cases__item--success">
-              <svg width="58" height="56">
-                <use href="./images/icons.svg#icon-notes"></use>
-              </svg>
-              <div>
-                <p>95%</p>
-                <p>Case Success</p>
-              </div>
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome-wrap">
+          <ul class="welcome-images">
+            <li class="welcome-images__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/section/section1@2x.avif 2x,
+                    ./images/section/section1@1x.avif 1x
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./images/section/section1@2x.wepb 2x,
+                    ./images/section/section1@1x.wepb 1x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/section/section1@2x.jpg 2x,
+                    ./images/section/section1@1x.jpg 1x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/section/section1@1x.jpg"
+                  alt="library with book's shelves and statues"
+                  width="467px"
+                />
+              </picture>
             </li>
-            <li class="cases__item cases__item--experience">
-              <p class="cases__year">35+</p>
-              <div>
-                <p>Years</p>
-                <p>Experience</p>
-              </div>
+            <li class="welcome-images__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/section/section2@2x.avif 2x,
+                    ./images/section/section2@1x.avif 1x
+                  "
+                  type="image/avif" />
+                <source
+                  srcset="
+                    ./images/section/section2@2x.wepb 2x,
+                    ./images/section/section2@1x.wepb 1x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/section/section2@2x.jpg 2x,
+                    ./images/section/section2@1x.jpg 1x
+                  "
+                  type="image/jpg" />
+                <img
+                  src="./images/section/section2@1x.jpg"
+                  alt="judge's gavel"
+                  width="467px"
+              /></picture>
             </li>
           </ul>
+          <div class="welcome__meta">
+            <div class="welcome-title-icon-wrap">
+              <h2 class="welcome__title">
+                Welcome to Attorney Law - <br />
+                Lawyer & Law Firm Company
+              </h2>
+              <svg width="95" height="44">
+                <use href="./images/icons.svg#icon-div-1"></use>
+              </svg>
+            </div>
+            <p class="welcome__desc">
+              Although we are located in Brooklyn, our maritime lawyers are
+              proud to help the injured throughout the nation, including workers
+              who were working in foreign waters at the time of the incident go
+              up against the largest offshore companies and win.
+            </p>
+            <div class="small-card">
+              <picture>
+                <source
+                  srcset="
+                    ./images/section/parker@2x.png 2x,
+                    ./images/section/parker@2x.png 1x
+                  " />
+                <img
+                  src="./images/section/parker@2x.png"
+                  alt="Peter Parker in black suit"
+                  width="90px"
+              /></picture>
+              <p class="small-card__name">Peter Parker</p>
+            </div>
+
+            <ul class="cases">
+              <li class="cases__item cases__item--success">
+                <svg width="58" height="56">
+                  <use href="./images/icons.svg#icon-notes"></use>
+                </svg>
+                <div>
+                  <p>95%</p>
+                  <p>Case Success</p>
+                </div>
+              </li>
+              <li class="cases__item cases__item--experience">
+                <p class="cases__year">35+</p>
+                <div>
+                  <p>Years</p>
+                  <p>Experience</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-      <section class="practice">
+      </div>
+    </section>
+
+    <section class="practice">
+      <div class="container">
         <div class="practice__meta">
           <div>
             <h2 class="practice__title">
@@ -314,8 +392,8 @@
             </div>
           </li>
         </ul>
-      </section>
-    </div>
+      </div>
+    </section>
     <section class="fighting">
       <div class="container container__fighting">
         <h2 class="fighting__title">Fighting to get what <br />you deserve</h2>

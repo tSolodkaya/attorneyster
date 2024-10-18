@@ -141,6 +141,7 @@ body {
 .container {
   padding-left: 40px;
   padding-right: 40px;
+  height: 100%;
 }
 
 address {
@@ -150,7 +151,7 @@ address {
 a {
   text-decoration: none;
   color: currentColor;
-  display: block;
+  display: inline-block;
 }
 
 ul {
@@ -187,6 +188,9 @@ button {
 .hero-header-overlay {
   width: 1440px;
   height: 1023px;
+  background-repeat: no-repeat;
+  background-size: 1440px 1023px, 1440px 1023px;
+  background-position: center, center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), url("../../images/background/bg-1@1x.jpg");
   background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), url("../../images/background/bg-1@1x.jpg");
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), -webkit-image-set(url("../../images/background/bg-1@2x.avif") type("image/avif") 2x, url("../../images/background/bg-1@1x.avif") type("image/avif") 1x, url("../../images/background/bg-1@2x.webp") type("image/webp") 2x, url("../../images/background/bg-1@1x.webp") type("image/webp") 1x, url("../../images/background/bg-1@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-1@1x.jpg") type("image/jpeg") 1x);
@@ -194,14 +198,6 @@ button {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(31, 39, 50, 0.8))), image-set(url("../../images/background/bg-1@2x.avif") type("image/avif") 2x, url("../../images/background/bg-1@1x.avif") type("image/avif") 1x, url("../../images/background/bg-1@2x.webp") type("image/webp") 2x, url("../../images/background/bg-1@1x.webp") type("image/webp") 1x, url("../../images/background/bg-1@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-1@1x.jpg") type "image/jpeg" 1x);
   background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), -webkit-image-set(url("../../images/background/bg-1@2x.avif") type("image/avif") 2x, url("../../images/background/bg-1@1x.avif") type("image/avif") 1x, url("../../images/background/bg-1@2x.webp") type("image/webp") 2x, url("../../images/background/bg-1@1x.webp") type("image/webp") 1x, url("../../images/background/bg-1@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-1@1x.jpg") type url("image/jpeg") 1x);
   background-image: linear-gradient(to right, rgba(31, 39, 50, 0.8) rgba(31, 39, 50, 0.8)), image-set(url("../../images/background/bg-1@2x.avif") type("image/avif") 2x, url("../../images/background/bg-1@1x.avif") type("image/avif") 1x, url("../../images/background/bg-1@2x.webp") type("image/webp") 2x, url("../../images/background/bg-1@1x.webp") type("image/webp") 1x, url("../../images/background/bg-1@2x.jpg") type("image/jpeg") 2x, url("../../images/background/bg-1@1x.jpg") type "image/jpeg" 1x);
-  background-repeat: no-repeat;
-  background-size: 1440px 1023px, 1440px 1023px;
-  background-position: center, center;
-}
-
-.header {
-  padding-top: 40px;
-  margin-bottom: 26px;
 }
 
 .logo-booking-wrap {
@@ -214,6 +210,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 40px;
   padding-bottom: 30px;
   border-bottom: 1px solid #4e555f;
 }
@@ -332,6 +329,7 @@ button {
 }
 
 .hero {
+  height: 734px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,6 +339,11 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.hero__img-thumb {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .hero__icon {
@@ -368,7 +371,6 @@ button {
 }
 
 .hero__link {
-  display: inline-block;
   padding: 24px 71px;
   text-align: center;
   font-size: 22px;
@@ -382,6 +384,11 @@ button {
 }
 
 .welcome {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.welcome-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,8 +398,6 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 140px;
-  padding-bottom: 140px;
 }
 
 .welcome-images__item:not(:last-child) {
@@ -403,7 +408,7 @@ button {
   width: 831px;
 }
 
-.welcome__icon {
+.welcome-title-icon-wrap {
   margin-bottom: 43px;
 }
 

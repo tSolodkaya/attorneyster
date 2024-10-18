@@ -1,18 +1,26 @@
 .hero {
+  height: 734px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.hero__img-thumb {
+  align-self: flex-end;
+}
+
 .hero__icon {
   margin-bottom: 14px;
 }
+
 .hero__meta {
   max-width: 672px;
 }
 
 .hero__title {
   margin-bottom: 21px;
+
   color: $main-text-color;
   font-family: $title-font-family;
   font-size: 62px;
@@ -22,13 +30,13 @@
 
 .hero__description {
   margin-bottom: 28px;
+
   color: $accent-color;
   font-size: 22px;
   line-height: 1.8;
 }
 
 .hero__link {
-  display: inline-block;
   padding: 24px 71px;
   text-align: center;
   font-size: 22px;
