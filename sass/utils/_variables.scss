@@ -11,21 +11,29 @@ $card-experience-text-color: #1f2732;
 
 $background-color: #161d27;
 $area-bg-color: #1f2732;
-$overlay: rgba(31, 39, 50, 0.8);
-
-$line-break-color: #4e555f;
 
 $button-border-dark: 1px solid rgba(255, 255, 255, 0.1);
 $button-bg-dark: rgba(255, 255, 255, 0.1);
-$button-border-accent: 1px solid rgb(209, 176, 107);
-$button-bg-accent: #d1b06b;
+// $button-border-accent: 1px solid rgb(209, 176, 107);
+// $button-bg-accent: #d1b06b;
 
+//===============================
+
+$overlay: rgba(31, 39, 50, 0.8);
+$line-break-color: #4e555f;
+
+//===============================
 $main-font-family: "Outfit", sans-serif;
 $title-font-family: "Cormorant Garamond", serif;
+
+//===============================
+
 $animation-time: 250ms;
 $animation-function: ease-in;
+
+//===============================
+
 $box-shadow-hover: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
   rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
-$opinion-box-shadow-hover: rgba(209, 176, 107, 0.1) 0px 6px 24px 0px,
+$box-shadow-hover-accent: rgba(209, 176, 107, 0.1) 0px 6px 24px 0px,
   rgba(209, 176, 107, 0.1) 0px 0px 0px 1px;
