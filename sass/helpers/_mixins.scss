@@ -1,0 +1,49 @@
+@mixin animate($property) {
+  transition: $property $animation-time $animation-function;
+}
+
+@mixin bg-imaged($img-name) {
+  background-image: url("../../images/background/#{$img-name}@1x.jpg");
+
+  background-image: -webkit-image-set(
+    url("../../images/background/#{$img-name}@2x.avif") type("image/avif") 2x,
+    url("../../images/background/#{$img-name}@1x.avif") type("image/avif") 1x,
+    url("../../images/background/#{$img-name}@2x.webp") type("image/webp") 2x,
+    url("../../images/background/#{$img-name}@1x.webp") type("image/webp") 1x,
+    url("../../images/background/#{$img-name}@2x.jpg") type("image/jpeg") 2x,
+    url("../../images/background/#{$img-name}@1x.jpg") type("image/jpeg") 1x
+  );
+
+  background-image: image-set(
+    url("../../images/background/#{$img-name}@2x.avif") type("image/avif") 2x,
+    url("../../images/background/#{$img-name}@1x.avif") type("image/avif") 1x,
+    url("../../images/background/#{$img-name}@2x.webp") type("image/webp") 2x,
+    url("../../images/background/#{$img-name}@1x.webp") type("image/webp") 1x,
+    url("../../images/background/#{$img-name}@2x.jpg") type("image/jpeg") 2x,
+    url("../../images/background/#{$img-name}@1x.jpg") type ("image/jpeg") 1x
+  );
+}
+
+@mixin bg-imaged-gradient($gradient, $img-name) {
+  background-image: $gradient,
+    url("../../images/background/#{$img-name}@1x.jpg");
+
+  background-image: $gradient,
+    -webkit-image-set(url("../../images/background/#{$img-name}@2x.avif")
+          type("image/avif") 2x, url("../../images/background/#{$img-name}@1x.avif")
+          type("image/avif") 1x, url("../../images/background/#{$img-name}@2x.webp")
+          type("image/webp") 2x, url("../../images/background/#{$img-name}@1x.webp")
+          type("image/webp") 1x, url("../../images/background/#{$img-name}@2x.jpg")
+          type("image/jpeg") 2x, url("../../images/background/#{$img-name}@1x.jpg")
+          type("image/jpeg") 1x);
+
+  background-image: $gradient,
+    image-set(
+      url("../../images/background/#{$img-name}@2x.avif") type("image/avif") 2x,
+      url("../../images/background/#{$img-name}@1x.avif") type("image/avif") 1x,
+      url("../../images/background/#{$img-name}@2x.webp") type("image/webp") 2x,
+      url("../../images/background/#{$img-name}@1x.webp") type("image/webp") 1x,
+      url("../../images/background/#{$img-name}@2x.jpg") type("image/jpeg") 2x,
+      url("../../images/background/#{$img-name}@1x.jpg") type ("image/jpeg") 1x
+    );
+}
