@@ -6,10 +6,10 @@
   background-size: 1440px 1023px, 1440px 1023px;
   background-position: center, center;
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     url("../../images/background/bg-1@1x.jpg");
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     -webkit-image-set(url("../../images/background/bg-1@2x.avif")
           type("image/avif") 2x, url("../../images/background/bg-1@1x.avif")
           type("image/avif") 1x, url("../../images/background/bg-1@2x.webp")
@@ -18,7 +18,7 @@
           type("image/jpeg") 2x, url("../../images/background/bg-1@1x.jpg")
           type("image/jpeg") 1x);
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     image-set(
       url("../../images/background/bg-1@2x.avif") type("image/avif") 2x,
       url("../../images/background/bg-1@1x.avif") type("image/avif") 1x,

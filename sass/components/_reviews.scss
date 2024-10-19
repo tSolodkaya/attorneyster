@@ -26,6 +26,7 @@
 .opinion__text-wrap {
   padding: 0 45px 57px 45px;
   background-color: $opinion-card-bg-color;
+  transition: box-shadow $animation-time $animation-function;
 
   .opinion:nth-child(2n + 1) & {
     padding-top: 51px;

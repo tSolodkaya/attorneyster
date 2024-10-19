@@ -5,10 +5,10 @@
   padding-top: 140px;
   padding-bottom: 140px;
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     url("../../images/background/bg-4@1x.jpg");
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     -webkit-image-set(url("../../images/background/bg-4@2x.avif")
           type("image/avif") 2x, url("../../images/background/bg-4@1x.avif")
           type("image/avif") 1x, url("../../images/background/bg-4@2x.webp")
@@ -17,7 +17,7 @@
           type("image/jpeg") 2x, url("../../images/background/bg-4@1x.jpg")
           type("image/jpeg") 1x);
 
-  background-image: linear-gradient(to right, $overlay $overlay),
+  background-image: linear-gradient(to right, $overlay, $overlay),
     image-set(
       url("../../images/background/bg-4@2x.avif") type("image/avif") 2x,
       url("../../images/background/bg-4@1x.avif") type("image/avif") 1x,
