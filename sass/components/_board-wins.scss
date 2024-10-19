@@ -6,18 +6,20 @@
 }
 
 .win-card {
-  width: 433px;
-  padding: 30px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+
+  width: 433px;
+  padding: 30px;
+
   background-color: $grey-color-shade-3;
   text-transform: capitalize;
 
   &--imaged {
     display: block;
+    min-height: 180px;
     text-align: start;
     line-height: 1.3;
 

@@ -1,7 +1,3 @@
-@mixin animate($property) {
-  transition: $property $animation-time $animation-function;
-}
-
 @mixin bg-imaged($img-name) {
   background-image: url("../../images/background/#{$img-name}@1x.jpg");
 

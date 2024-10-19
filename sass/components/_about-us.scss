@@ -4,6 +4,7 @@
 
   padding-top: 140px;
   padding-bottom: 140px;
+
   background-color: $grey-color-shade-7;
 
   @include bg-imaged("bg-3");
@@ -18,6 +19,10 @@
   background: $overlay;
 }
 
+.about-title-wrap {
+  margin-bottom: 50px;
+}
+
 .experience {
   width: 383px;
 }
@@ -30,10 +35,6 @@
   font-size: 45px;
   line-height: 1.3;
   text-transform: capitalize;
-}
-
-.about-title-wrap {
-  margin-bottom: 50px;
 }
 
 .historia {
@@ -107,10 +108,10 @@
 }
 
 .experience__link {
-  text-align: center;
+  padding: 25px 71px;
+
   color: $grey-color-shade-7;
   font-size: 22px;
-  padding: 25px 71px;
   border: 1px solid $accent-color;
   background: $accent-color;
 

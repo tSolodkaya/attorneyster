@@ -11,6 +11,7 @@
 
 .attorneys__title {
   margin-bottom: 11px;
+
   color: $grey-color-shade-7;
   font-family: $title-font-family;
   font-size: 45px;
@@ -21,8 +22,8 @@
 .attorney__list {
   display: flex;
   align-items: center;
-  gap: 30px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .member {

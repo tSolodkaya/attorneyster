@@ -1,9 +1,9 @@
 .hero {
-  height: 734px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  height: 734px;
 }
 
 .hero__img-thumb {
@@ -38,7 +38,7 @@
 
 .hero__link {
   padding: 24px 71px;
-  text-align: center;
+
   font-size: 22px;
   border: $accent-color;
   background-color: $accent-color;

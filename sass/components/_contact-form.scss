@@ -1,9 +1,9 @@
 .contact-form-wrap {
-  width: 1440px;
-  height: 945px;
-
   padding-top: 140px;
   padding-bottom: 140px;
+
+  width: 1440px;
+  height: 945px;
 
   @include bg-imaged-gradient(
     linear-gradient(to right, $overlay, $overlay),
@@ -18,13 +18,14 @@
 
 .contact-form__ipnput,
 .contact-form__message {
+  padding-left: 15px;
+  padding-top: 10px;
+
   display: block;
   border: none;
   outline: none;
-  padding-left: 15px;
-  padding-top: 10px;
-  border-bottom: 1px solid #3b434e;
 
+  border-bottom: 1px solid #3b434e;
   background-color: $grey-color-shade-6;
 
   color: $light-color;
@@ -41,9 +42,10 @@
 }
 
 .contact-form__message {
+  margin-bottom: 50px;
+
   width: 100%;
   min-height: 110px;
-  margin-bottom: 50px;
   resize: none;
 }
 
@@ -61,6 +63,7 @@
   display: block;
   margin: 0 auto;
   padding: 30px;
+
   color: $grey-color-shade-5;
   font-size: 25px;
   background-color: $light-color;

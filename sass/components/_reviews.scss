@@ -23,15 +23,20 @@
   flex-wrap: wrap;
 }
 
+.opinion__link {
+  text-align: start;
+}
 .opinion__text-wrap {
   padding: 0 45px 57px 45px;
+
   background-color: $grey-color-shade-4;
   transition: box-shadow $animation-time $animation-function;
 
   .opinion:nth-child(2n + 1) & {
     padding-top: 51px;
-    border-radius: 1px 1px 1px 40px;
     margin-bottom: 20px;
+
+    border-radius: 1px 1px 1px 40px;
   }
 
   .opinion:nth-child(2n) & {
@@ -46,10 +51,11 @@
 }
 
 .opinion {
-  width: 314px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
+  width: 314px;
 
   &:nth-child(2n) {
     flex-direction: column-reverse;
@@ -65,10 +71,11 @@
 }
 
 .reviewer-card {
-  width: 300px;
   display: flex;
   gap: 22px;
   align-items: center;
+
+  width: 300px;
 
   .opinion:nth-child(2n) & {
     margin-bottom: 22px;
@@ -78,6 +85,7 @@
 .reviewer-card__thumb {
   width: 84px;
   height: 84px;
+
   border-radius: 50%;
   overflow: hidden;
 }

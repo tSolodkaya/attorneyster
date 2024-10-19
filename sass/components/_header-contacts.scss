@@ -27,7 +27,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 12px;
 
   font-size: 22px;
@@ -36,7 +35,6 @@
 
 .contact__icon {
   fill: $accent-color;
-
   transition: fill $animation-time $animation-function;
 
   .contact__link:hover & {
@@ -46,6 +44,7 @@
 
 .contact__desc {
   display: block;
+  text-align: start;
   color: $accent-color;
   font-size: 18px;
 }
