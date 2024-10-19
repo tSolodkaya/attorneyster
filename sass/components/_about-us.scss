@@ -50,8 +50,7 @@
   text-transform: capitalize;
 }
 
-.history__icon,
-.experience__icon {
+.about-title-wrap {
   margin-bottom: 50px;
 }
 
@@ -126,7 +125,6 @@
 }
 
 .experience__link {
-  display: inline-block;
   text-align: center;
   color: $background-color;
   font-size: 22px;

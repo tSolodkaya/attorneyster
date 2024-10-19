@@ -1,11 +1,10 @@
 .fighting {
   padding-top: 124px;
-  padding-bottom: 84px;
   background-color: $main-text-color;
   text-align: center;
 }
 
-.container__fighting {
+.fighting__linebreak {
   &::after {
     content: "";
     display: block;
@@ -15,6 +14,7 @@
     margin-top: 80px;
   }
 }
+
 .fighting__title {
   margin-bottom: 11px;
 
@@ -25,80 +25,11 @@
   text-transform: capitalize;
 }
 
-.fighting__icon {
+.fighting-title-icon-wrap {
   margin-bottom: 40px;
 }
 
 .fighting__desc {
   margin-bottom: 60px;
   color: $section-desc-color;
-}
-
-.board-wins {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.win-card {
-  width: 433px;
-  height: 180px;
-  padding: 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background-color: $win-card-bg-color;
-  text-transform: capitalize;
-
-  &--imaged {
-    display: block;
-    text-align: start;
-    line-height: 1.3;
-
-    background-image: url("../../images/section/section3@1x.jpg");
-  }
-}
-
-.win-card__score-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 118px;
-  height: 120px;
-  border: 2px solid $accent-color;
-}
-
-.win-card__score {
-  color: $card-experience-text-color;
-  font-size: 30px;
-  line-height: 1.3;
-
-  .win-card--imaged & {
-    color: $main-text-color;
-  }
-}
-
-.win-card__title {
-  text-align: start;
-  color: $card-experience-text-color;
-  font-family: $title-font-family;
-  font-size: 30px;
-  line-height: 1.4;
-
-  .win-card--imaged & {
-    margin-bottom: 10px;
-  }
-}
-
-.win-card__desc {
-  color: $section-desc-color;
-
-  .win-card--imaged & {
-    color: $main-text-color;
-  }
 }

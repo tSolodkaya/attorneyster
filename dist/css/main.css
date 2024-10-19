@@ -566,7 +566,6 @@ button {
 
 .area__link {
   padding: 13px 42px;
-  display: inline-block;
   text-transform: capitalize;
   background-color: #161d27;
   -webkit-transition: background-color 250ms ease-in;
@@ -590,12 +589,11 @@ button {
 
 .fighting {
   padding-top: 124px;
-  padding-bottom: 84px;
   background-color: #fff;
   text-align: center;
 }
 
-.container__fighting::after {
+.fighting__linebreak::after {
   content: "";
   display: block;
   width: 100%;
@@ -613,7 +611,7 @@ button {
   text-transform: capitalize;
 }
 
-.fighting__icon {
+.fighting-title-icon-wrap {
   margin-bottom: 40px;
 }
 
@@ -638,7 +636,6 @@ button {
 
 .win-card {
   width: 433px;
-  height: 180px;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -782,8 +779,7 @@ button {
   text-transform: capitalize;
 }
 
-.history__icon,
-.experience__icon {
+.about-title-wrap {
   margin-bottom: 50px;
 }
 
@@ -850,7 +846,6 @@ button {
 }
 
 .experience__link {
-  display: inline-block;
   text-align: center;
   color: #161d27;
   font-size: 22px;
