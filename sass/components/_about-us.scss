@@ -4,7 +4,7 @@
 
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: $background-color;
+  background-color: $grey-color-shade-7;
 
   background-image: url("../../images/background/bg-3@1x.jpg");
 
@@ -71,7 +71,7 @@
 
 .historia__desc,
 .experience__desc {
-  color: $paragraph-color;
+  color: $grey-color-shade-1;
 }
 
 .experience__desc {
@@ -104,14 +104,14 @@
     background-image: linear-gradient(
       90deg,
       $accent-color 75%,
-      $main-text-color 75%
+      $light-color 75%
     );
   }
   &--80 {
     background-image: linear-gradient(
       90deg,
       $accent-color 80%,
-      $main-text-color 80%
+      $light-color 80%
     );
   }
 
@@ -119,14 +119,14 @@
     background-image: linear-gradient(
       90deg,
       $accent-color 90%,
-      $main-text-color 90%
+      $light-color 90%
     );
   }
 }
 
 .experience__link {
   text-align: center;
-  color: $background-color;
+  color: $grey-color-shade-7;
   font-size: 22px;
   padding: 25px 71px;
   border: 1px solid $accent-color;
@@ -139,7 +139,7 @@
   &:hover,
   &:focus {
     background-color: $button-bg-dark;
-    color: $main-text-color;
+    color: $light-color;
     border-color: $button-bg-dark;
   }
 }

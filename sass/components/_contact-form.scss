@@ -30,7 +30,7 @@
 
 .contact-form {
   padding: 90px 100px 105px 100px;
-  background-color: $area-bg-color;
+  background-color: $grey-color-shade-6;
 }
 
 .contact-form__ipnput,
@@ -42,9 +42,9 @@
   padding-top: 10px;
   border-bottom: 1px solid #3b434e;
 
-  background-color: $area-bg-color;
+  background-color: $grey-color-shade-6;
 
-  color: $main-text-color;
+  color: $light-color;
   font-size: 25px;
   line-height: 0.8;
 
@@ -78,9 +78,9 @@
   display: block;
   margin: 0 auto;
   padding: 30px;
-  color: $card-success-bg-color;
+  color: $grey-color-shade-5;
   font-size: 25px;
-  background-color: $main-text-color;
+  background-color: $light-color;
 
   transition: background-color $animation-time $animation-function,
     color $animation-time $animation-function;
@@ -88,6 +88,6 @@
   &:hover,
   &:focus {
     background-color: $accent-color;
-    color: $main-text-color;
+    color: $light-color;
   }
 }

@@ -8,7 +8,7 @@
     width: 217px;
     height: 66px;
 
-    background-color: $main-text-color;
+    background-color: $light-color;
   }
 
   display: flex;
@@ -48,7 +48,7 @@
   }
 }
 .socials__icon {
-  fill: $background-color;
+  fill: $grey-color-shade-7;
 
   transition: fill $animation-time $animation-function;
   .socials__link:hover &,
@@ -57,6 +57,6 @@
   }
 
   &--light {
-    fill: $main-text-color;
+    fill: $light-color;
   }
 }

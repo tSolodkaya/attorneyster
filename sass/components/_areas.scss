@@ -9,7 +9,7 @@
 .area {
   width: 430px;
   padding: 55px 50px 70px 50px;
-  background-color: $area-bg-color;
+  background-color: $grey-color-shade-6;
 }
 
 .area__title {
@@ -20,7 +20,7 @@
 }
 
 .area__desc {
-  color: $paragraph-color;
+  color: $grey-color-shade-1;
 
   &::after {
     content: "";
@@ -36,7 +36,7 @@
 .area__link {
   padding: 13px 42px;
   text-transform: capitalize;
-  background-color: $background-color;
+  background-color: $grey-color-shade-7;
 
   transition: background-color $animation-time $animation-function;
 

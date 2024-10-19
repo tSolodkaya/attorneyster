@@ -27,14 +27,14 @@
 
 .contact-us__desc {
   margin-bottom: 37px;
-  color: $paragraph-color;
+  color: $grey-color-shade-1;
 }
 
 .contact-us__link {
   background-color: $accent-color;
   padding: 25px 71px;
 
-  color: $card-experience-text-color;
+  color: $grey-color-shade-6;
   text-align: center;
   font-size: 22px;
 
@@ -44,24 +44,24 @@
   &:hover,
   &:focus {
     background-color: $button-bg-dark;
-    color: $main-text-color;
+    color: $light-color;
   }
 }
 
 .get-consultation-wrap__border {
-  border: 15px solid $paragraph-color;
+  border: 15px solid $grey-color-shade-1;
   padding: 50px 0 70px 40px;
 }
 
 .get-consultation-wrap {
-  background-color: $main-text-color;
+  background-color: $light-color;
   padding: 40px;
 }
 
 .get-consultation__title {
   margin-bottom: 12px;
 
-  color: $area-bg-color;
+  color: $grey-color-shade-6;
   font-family: $title-font-family;
   font-size: 42px;
   line-height: 1.3;
@@ -69,11 +69,11 @@
 
 .get-consultation__desc {
   margin-bottom: 37px;
-  color: $section-desc-color;
+  color: $grey-color-shade-2;
 }
 
 .icon-phone {
-  fill: $main-text-color;
+  fill: $light-color;
 }
 
 .get-consultatin__icon {
@@ -90,13 +90,13 @@
 
   .get-consultation__link:hover &,
   .get-consultation__link:focus & {
-    background-color: $area-bg-color;
+    background-color: $grey-color-shade-6;
   }
 }
 
 .get-consultation__link {
   display: flex;
-  color: $card-experience-text-color;
+  color: $grey-color-shade-6;
   font-size: 30px;
   line-height: 1.4;
 }

@@ -25,7 +25,7 @@
 
 .opinion__text-wrap {
   padding: 0 45px 57px 45px;
-  background-color: $opinion-card-bg-color;
+  background-color: $grey-color-shade-4;
   transition: box-shadow $animation-time $animation-function;
 
   .opinion:nth-child(2n + 1) & {
@@ -61,7 +61,7 @@
 }
 
 .opinion__text {
-  color: $paragraph-color;
+  color: $grey-color-shade-1;
 }
 
 .reviewer-card {

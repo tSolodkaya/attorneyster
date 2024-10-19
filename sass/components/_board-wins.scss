@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background-color: $win-card-bg-color;
+  background-color: $grey-color-shade-3;
   text-transform: capitalize;
 
   &--imaged {
@@ -37,18 +37,18 @@
 }
 
 .win-card__score {
-  color: $card-experience-text-color;
+  color: $grey-color-shade-6;
   font-size: 30px;
   line-height: 1.3;
 
   .win-card--imaged & {
-    color: $main-text-color;
+    color: $light-color;
   }
 }
 
 .win-card__title {
   text-align: start;
-  color: $card-experience-text-color;
+  color: $grey-color-shade-6;
   font-family: $title-font-family;
   font-size: 30px;
   line-height: 1.4;
@@ -59,9 +59,9 @@
 }
 
 .win-card__desc {
-  color: $section-desc-color;
+  color: $grey-color-shade-2;
 
   .win-card--imaged & {
-    color: $main-text-color;
+    color: $light-color;
   }
 }

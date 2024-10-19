@@ -19,7 +19,7 @@
   transition: border-color $animation-time $animation-function;
 
   .contact__link:hover & {
-    border-color: $main-text-color;
+    border-color: $light-color;
   }
 }
 
@@ -40,7 +40,7 @@
   transition: fill $animation-time $animation-function;
 
   .contact__link:hover & {
-    fill: $main-text-color;
+    fill: $light-color;
   }
 }
 

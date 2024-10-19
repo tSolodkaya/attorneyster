@@ -1,7 +1,7 @@
 .attorneys {
   padding-top: 115px;
   padding-bottom: 120px;
-  background-color: $main-text-color;
+  background-color: $light-color;
 }
 
 .attorneys__title-wrap {
@@ -11,7 +11,7 @@
 
 .attorneys__title {
   margin-bottom: 11px;
-  color: $background-color;
+  color: $grey-color-shade-7;
   font-family: $title-font-family;
   font-size: 45px;
   line-height: 1.2;
@@ -47,7 +47,7 @@
 }
 
 .member__name {
-  color: $background-color;
+  color: $grey-color-shade-7;
   font-family: $title-font-family;
   font-size: 30px;
   line-height: 1.3;

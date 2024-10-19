@@ -1,6 +1,6 @@
 .fighting {
   padding-top: 124px;
-  background-color: $main-text-color;
+  background-color: $light-color;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@
     display: block;
     width: 100%;
     height: 2px;
-    background-color: $win-card-bg-color;
+    background-color: $grey-color-shade-3;
     margin-top: 80px;
   }
 }
@@ -18,7 +18,7 @@
 .fighting__title {
   margin-bottom: 11px;
 
-  color: $background-color;
+  color: $grey-color-shade-7;
   font-family: $title-font-family;
   font-size: 45px;
   line-height: 1.2;
@@ -31,5 +31,5 @@
 
 .fighting__desc {
   margin-bottom: 60px;
-  color: $section-desc-color;
+  color: $grey-color-shade-2;
 }
