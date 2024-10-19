@@ -1,7 +1,4 @@
-.contact-us-wrap {
-  width: 630px;
-}
-
+.contact-us-wrap,
 .get-consultation-wrap {
   width: 630px;
 }
@@ -24,7 +21,7 @@
   text-transform: capitalize;
 }
 
-.contact-us__icon {
+.contact-title-wrap {
   margin-bottom: 43px;
 }
 
@@ -34,7 +31,6 @@
 }
 
 .contact-us__link {
-  display: inline-block;
   background-color: $accent-color;
   padding: 25px 71px;
 
