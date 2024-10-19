@@ -905,6 +905,10 @@ button {
   padding-top: 76px;
   border-radius: 40px 1px 1px 1px;
 }
+.opinion__link:hover .opinion__text-wrap, .opinion__link:focus .opinion__text-wrap {
+  -webkit-box-shadow: rgba(209, 176, 107, 0.1) 0px 6px 24px 0px, rgba(209, 176, 107, 0.1) 0px 0px 0px 1px;
+          box-shadow: rgba(209, 176, 107, 0.1) 0px 6px 24px 0px, rgba(209, 176, 107, 0.1) 0px 0px 0px 1px;
+}
 
 .opinion {
   width: 314px;

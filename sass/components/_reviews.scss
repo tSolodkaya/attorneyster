@@ -37,6 +37,11 @@
     padding-top: 76px;
     border-radius: 40px 1px 1px 1px;
   }
+
+  .opinion__link:hover &,
+  .opinion__link:focus & {
+    box-shadow: $opinion-box-shadow-hover;
+  }
 }
 
 .opinion {
